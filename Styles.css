@@ -1,0 +1,125 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    font-family: "Poppins";
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    font-size: 10px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+header .logo {
+    margin-left: 25px;
+}
+
+header .logoAR {
+    margin-right: 25px;
+    margin-left: 15.5%;
+}
+
+header .menu-items ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header .menu-items ul li {
+    margin: 0px 15px;
+}
+
+header .lang {
+    margin-right: 25px;
+    margin-left: 16%;
+}
+
+header .langAR {
+    margin-left: 25px;
+    margin-right: 16%;
+}
+
+header .lang a {
+    color: white;
+    text-decoration: none;
+}
+
+header .langAR a {
+    color: white;
+    text-decoration: none;
+}
+
+.wrapper {
+    position: absolute;
+    bottom: 0%;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%) translateY(10%);
+    height: 1000px;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 30px;
+    height: fit-content;
+}
+
+.left-container {
+    margin: 25px;
+}
+
+.left-container h1 {
+    width: 50%;
+    margin: 10px 0px;
+    line-height: 95%;
+    font-size: 100px;
+    font-weight: lighter;
+}
+
+.left-containerAR {
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Tajawal';
+
+}
+
+.left-containerAR h1 {
+    width: 75%;
+    margin: 10px 0px;
+    line-height: 95%;
+    font-family: 'Tajawal';
+    font-size: 150px;
+    font-weight: lighter;
+}
+
+.left-container {
+    margin-right: 25px;
+}
+
+.right-containerAR {
+    margin-left: 25px;
+}
+
+.right-container {
+    margin-right: 25px;
+}
